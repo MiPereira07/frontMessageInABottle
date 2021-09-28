@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar Todas as Mensagens</title>
+    <link rel="stylesheet" href="/styles/css/listarTodos.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lista de Mensagens</h1>
+        </header>
+
+        <a href="/adicionar">Adicionar Mensagem</a><b> / </b>
+        <a href="/">Voltar</a>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="display:none;">Id</th>
+                    <th>Titulo</th>
+                    <th>Descricao</th>
+                    <th>#</th>
+                </tr>
+            </thead>
+            <tbody id="bodyMensagens"></tbody>
+        </table>
+    </div>
+    <script src="/scripts/js/listarTodos.js"></script>
+</body>
+</html>
