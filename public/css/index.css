@@ -6,6 +6,8 @@ table, tr, td, th {
     border: solid thin #000;
     border-collapse: collapse;
     padding: 10px;
+    backgroud: plum;
+    font: normal 12pt Verdana;
 }
 
 table{
