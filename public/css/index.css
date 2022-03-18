@@ -6,6 +6,8 @@ table, tr, td, th {
     border: solid thin #000;
     border-collapse: collapse;
     padding: 10px;
+    background: plum;
+    font: Verdana;
 }
 
 table{
@@ -13,6 +15,8 @@ table{
     margin: 0 auto;
     text-align: center;
     margin-top: 20px;
+    background: plum;
+    font: Verdana;
 }
 
 a{
